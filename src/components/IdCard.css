@@ -1,0 +1,22 @@
+/* IdCard.css */
+.idcard {
+    display: flex;
+    align-items: center; 
+    justify-items: center;
+    border: 5px solid black;
+    padding: 2px;
+  }
+  
+  .idcard-picture {
+    flex: 0 0 auto; 
+    margin-right: 20px;
+  }
+  
+  .idinfo {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .idinfo li {
+    margin-bottom: 5px;
+  }
