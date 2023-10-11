@@ -22,7 +22,7 @@ const SingleColorPicker = ({ color, value, onChange }) => {
               color === 'g' ? colorValue : 0
             }, ${color === 'b' ? colorValue : 0})`,
             marginRight: '10px',
-            border: '1px solid black', // Add border
+            border: '1px solid black'
           }}
         ></div>
         <span>{colorLabel} : </span>
